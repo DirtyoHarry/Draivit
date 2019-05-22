@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "220798101663",
+    "firebase_url": "https://draivit.firebaseio.com",
+    "project_id": "draivit",
+    "storage_bucket": "draivit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220798101663:android:56bc7d7861483985",
+        "android_client_info": {
+          "package_name": "com.scerit.dravit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220798101663-t78qj8o5r2kgg5q4adlv8bs3v8ji40db.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvIsRNQN9eL-rzRc_SAQIfotEpLo82xow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220798101663-t78qj8o5r2kgg5q4adlv8bs3v8ji40db.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

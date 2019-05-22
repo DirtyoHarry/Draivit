@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingActivity"
+    android:background="@drawable/loginbg">
+
+    <Button
+        android:text="Accedi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="161dp"
+        android:layout_marginStart="161dp"
+        app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp" android:layout_marginBottom="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/loginbtnbg"
+        android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintHorizontal_bias="0.495" android:onClick="logClick"/>
+    <Button
+        android:text="Registrati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSignUp"
+        app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="58dp"
+        app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="162dp"
+        android:layout_marginStart="162dp" app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="161dp" android:layout_marginRight="161dp" android:layout_marginTop="31dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        android:background="@drawable/loginbtnbg"
+        android:onClick="signClick"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" app:srcCompat="@drawable/loginlogo"
+        android:id="@+id/logo"
+        app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp" app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="217dp" android:layout_marginBottom="236dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin" app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="8dp" android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0"/>
+</android.support.constraint.ConstraintLayout>
